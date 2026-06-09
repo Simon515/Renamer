@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode
+*.xcuserdata
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+build/
+
+# SwiftPM
+.build/
+Packages/
+*.xcodeproj
+
+# App
+*.app
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+.kunsdd
