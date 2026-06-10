@@ -23,7 +23,10 @@ final class MainViewModel {
     
     // 选择的文件夹
     var selectedFolders: [URL] = [] {
-        didSet { if selectedFolders.isEmpty { phase = .empty } }
+        didSet {
+            if selectedFolders.isEmpty { phase = .empty }
+            else { phase = .foldersSelected }
+        }
     }
     
     // 扫描结果
